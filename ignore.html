@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NexaIoT | Soluciones de Internet de las Cosas</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: '#0a0e1a',
+          bg2: '#0f1524',
+          card: '#141b2e',
+          accent: '#22d3ee',
+          accent2: '#67e8f9',
+          muted: '#8b98ac'
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body{ font-family:'Segoe UI', system-ui, -apple-system, sans-serif; }
+  :root{ padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+  html{ scroll-padding-top:env(safe-area-inset-top,0px); }
+  .card-img{ height:9rem; width:100%; object-fit:cover; }
+</style>
+</head>
+<body class="bg-bg text-slate-200 leading-relaxed">
+
+<header class="sticky z-10 bg-bg2 border-b border-slate-700/30 flex items-center justify-between flex-wrap gap-3 px-6 py-4" style="top:env(safe-area-inset-top,0px);">
+  <div class="text-xl font-extrabold text-accent tracking-wide ">📡 Nexa<span class="text-slate-200">IoT</span></div>
+  <nav class="flex gap-6 text-sm font-medium">
+    <a href="#soluciones" class="hover:text-accent">Soluciones</a>
+    <a href="#proceso" class="hover:text-accent">Proceso</a>
+    <a href="#contacto" class="hover:text-accent">Contacto</a>
+  </nav>
+</header>
+
+<div class="max-w-6xl mx-auto px-6 pt-20 pb-16 grid md:grid-cols-2 gap-10 items-center">
+  <div class="text-center md:text-left">
+    <span class="inline-block bg-accent/10 text-accent border border-accent/30 rounded-full px-4 py-1.5 text-xs font-semibold mb-5">● Conectividad inteligente 24/7</span>
+    <h1 class="text-3xl md:text-5xl font-bold mb-4">Servicios <span class="text-accent">IoT</span> para tu empresa</h1>
+    <p class="text-muted max-w-xl mx-auto md:mx-0 mb-7 text-base">Sensores, conectividad y monitoreo en tiempo real. Digitaliza tus procesos, reduce costos y toma decisiones basadas en datos.</p>
+    <a href="#contacto" class="inline-block bg-accent text-[#04141a] font-bold px-8 py-3.5 rounded-lg mx-1.5 hover:bg-accent2 transition">Solicitar demo</a>
+    <a href="#soluciones" class="inline-block border border-accent text-accent font-bold px-8 py-3.5 rounded-lg mx-1.5 hover:bg-accent/10 transition">Ver soluciones</a>
+  </div>
+  <div class="relative">
+    <img src="/image/13167061.jpg"
+         alt="Placa de circuito, tecnología IoT" class="w-full h-72 md:h-96 object-cover rounded-2xl border border-accent/20">
+    <div class="absolute inset-0 rounded-2xl bg-gradient-to-t from-bg/70 via-bg/10 to-transparent"></div>
+  </div>
+</div>
+
+<section id="soluciones" class="max-w-5xl mx-auto px-6 py-14">
+  <h2 class="text-2xl font-bold text-center mb-2">Soluciones IoT</h2>
+  <p class="text-muted text-center mb-10">Conectamos tus equipos y datos en una sola plataforma</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="bg-card border border-slate-700/20 rounded-2xl overflow-hidden hover:border-accent/40 transition">
+      <img class="card-img" src="https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?fm=jpg&q=70&w=800&auto=format&fit=crop" alt="Monitoreo remoto de sensores">
+      <div class="p-6">
+        <h3 class="font-semibold mb-2">Monitoreo Remoto</h3>
+        <p class="text-muted text-sm">Supervisión en tiempo real de maquinaria, temperatura, humedad y consumo energético.</p>
+      </div>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-2xl overflow-hidden hover:border-accent/40 transition">
+      <img class="card-img" src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?fm=jpg&q=70&w=800&auto=format&fit=crop" alt="Interior de fábrica industrial">
+      <div class="p-6">
+        <h3 class="font-semibold mb-2">IoT Industrial</h3>
+        <p class="text-muted text-sm">Sensores para plantas de producción con alertas automáticas de fallas y mantenimiento predictivo.</p>
+      </div>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-2xl overflow-hidden hover:border-accent/40 transition">
+      <img class="card-img" src="https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?fm=jpg&q=70&w=800&auto=format&fit=crop" alt="Termostato inteligente en el hogar">
+      <div class="p-6">
+        <h3 class="font-semibold mb-2">Automatización de Hogares</h3>
+        <p class="text-muted text-sm">Iluminación, seguridad y climatización controladas desde una sola app.</p>
+      </div>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-2xl overflow-hidden hover:border-accent/40 transition">
+      <img class="card-img" src="https://images.unsplash.com/photo-1616432043562-3671ea2e5242?fm=jpg&q=70&w=800&auto=format&fit=crop" alt="Camión de flota en carretera">
+      <div class="p-6">
+        <h3 class="font-semibold mb-2">Rastreo GPS y Flotas</h3>
+        <p class="text-muted text-sm">Ubicación en tiempo real, rutas optimizadas y control de combustible.</p>
+      </div>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-2xl overflow-hidden hover:border-accent/40 transition">
+      <img class="card-img" src="https://images.unsplash.com/photo-1692369584496-3216a88f94c1?fm=jpg&q=70&w=800&auto=format&fit=crop" alt="Riego automático en campo agrícola">
+      <div class="p-6">
+        <h3 class="font-semibold mb-2">Agricultura Inteligente</h3>
+        <p class="text-muted text-sm">Sensores de humedad, riego automático y análisis de suelo para optimizar cosechas.</p>
+      </div>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-2xl overflow-hidden hover:border-accent/40 transition">
+      <img class="card-img" src="https://images.unsplash.com/photo-1698668975271-2ba9a323be6b?fm=jpg&q=70&w=800&auto=format&fit=crop" alt="Servidores en la nube">
+      <div class="p-6">
+        <h3 class="font-semibold mb-2">Plataforma en la Nube</h3>
+        <p class="text-muted text-sm">Dashboard centralizado con reportes, históricos y alertas configurables.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proceso" class="max-w-5xl mx-auto px-6 py-14">
+  <h2 class="text-2xl font-bold text-center mb-2">¿Cómo funciona?</h2>
+  <p class="text-muted text-center mb-8">De la instalación al análisis de datos</p>
+  <div class="flex flex-wrap justify-center gap-4">
+    <div class="bg-card border border-slate-700/20 rounded-xl p-5 text-center w-44">
+      <div class="w-8 h-8 rounded-full bg-accent text-[#04141a] font-extrabold flex items-center justify-center mx-auto mb-2.5">1</div>
+      <strong class="block mb-1">Diagnóstico</strong>
+      <p class="text-muted text-sm">Evaluamos tus necesidades y equipos</p>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-xl p-5 text-center w-44">
+      <div class="w-8 h-8 rounded-full bg-accent text-[#04141a] font-extrabold flex items-center justify-center mx-auto mb-2.5">2</div>
+      <strong class="block mb-1">Instalación</strong>
+      <p class="text-muted text-sm">Colocamos sensores y gateways</p>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-xl p-5 text-center w-44">
+      <div class="w-8 h-8 rounded-full bg-accent text-[#04141a] font-extrabold flex items-center justify-center mx-auto mb-2.5">3</div>
+      <strong class="block mb-1">Conexión</strong>
+      <p class="text-muted text-sm">Integramos todo a la plataforma cloud</p>
+    </div>
+    <div class="bg-card border border-slate-700/20 rounded-xl p-5 text-center w-44">
+      <div class="w-8 h-8 rounded-full bg-accent text-[#04141a] font-extrabold flex items-center justify-center mx-auto mb-2.5">4</div>
+      <strong class="block mb-1">Monitoreo</strong>
+      <p class="text-muted text-sm">Visualiza datos y recibe alertas</p>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-6 py-14 grid md:grid-cols-2 gap-10 items-center">
+  <img src="https://images.unsplash.com/photo-1686061593213-98dad7c599b9?fm=jpg&q=70&w=1000&auto=format&fit=crop"
+       alt="Dashboard de analítica en pantalla" class="w-full h-72 object-cover rounded-2xl border border-accent/20">
+  <div class="text-center md:text-left">
+    <h2 class="text-2xl font-bold mb-3">Todo tu ecosistema, en un solo panel</h2>
+    <p class="text-muted mb-4">Visualiza métricas, historiales y alertas de todos tus dispositivos en tiempo real, desde cualquier lugar.</p>
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-6 py-14">
+  <h2 class="text-2xl font-bold text-center mb-8">Resultados que generamos</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+    <div><h3 class="text-3xl font-bold text-accent mb-1">30%</h3><p class="text-muted text-sm">Reducción de costos operativos</p></div>
+    <div><h3 class="text-3xl font-bold text-accent mb-1">99.9%</h3><p class="text-muted text-sm">Disponibilidad de red</p></div>
+    <div><h3 class="text-3xl font-bold text-accent mb-1">150+</h3><p class="text-muted text-sm">Dispositivos desplegados</p></div>
+    <div><h3 class="text-3xl font-bold text-accent mb-1">24/7</h3><p class="text-muted text-sm">Soporte técnico</p></div>
+  </div>
+</section>
+
+<section id="contacto" class="max-w-5xl mx-auto px-6 py-14">
+  <div class="bg-card border border-slate-700/20 rounded-2xl text-center p-10">
+    <h2 class="text-2xl font-bold mb-2">Digitaliza tu negocio hoy</h2>
+    <p class="text-muted mb-7">Agenda una consultoría gratuita con nuestro equipo</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+      <div class="bg-bg2 border border-slate-700/20 rounded-xl p-5">📞<br><strong>Teléfono</strong><br><span class="text-muted">+51 999 999 999</span></div>
+      <div class="bg-bg2 border border-slate-700/20 rounded-xl p-5">✉️<br><strong>Email</strong><br><span class="text-muted">contacto@nexaiot.com</span></div>
+      <div class="bg-bg2 border border-slate-700/20 rounded-xl p-5">📍<br><strong>Ubicación</strong><br><span class="text-muted">Lima, Perú</span></div>
+      <div class="bg-bg2 border border-slate-700/20 rounded-xl p-5">🕒<br><strong>Horario</strong><br><span class="text-muted">Lun-Vie 9am-6pm</span></div>
+    </div>
+
+    <div class="max-w-lg mx-auto text-left">
+      <div id="form-success" class="hidden bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 rounded-xl p-5 mb-5 text-center">
+        ✅ ¡Gracias! Tu mensaje fue enviado, te contactaremos pronto.
+      </div>
+      <div id="contact-form">
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1.5" for="nombre">Nombre</label>
+          <input id="nombre" type="text" required placeholder="Tu nombre completo"
+            class="w-full bg-bg2 border border-slate-700/30 rounded-lg px-4 py-2.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-accent">
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1.5" for="email">Correo electrónico</label>
+          <input id="email" type="email" required placeholder="tucorreo@ejemplo.com"
+            class="w-full bg-bg2 border border-slate-700/30 rounded-lg px-4 py-2.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-accent">
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1.5" for="telefono">Teléfono</label>
+          <input id="telefono" type="tel" placeholder="+51 999 999 999"
+            class="w-full bg-bg2 border border-slate-700/30 rounded-lg px-4 py-2.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-accent">
+        </div>
+        <div class="mb-5">
+          <label class="block text-sm font-medium mb-1.5" for="mensaje">Mensaje</label>
+          <textarea id="mensaje" rows="4" required placeholder="Cuéntanos qué necesitas..."
+            class="w-full bg-bg2 border border-slate-700/30 rounded-lg px-4 py-2.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-accent resize-none"></textarea>
+        </div>
+        <button id="submit-btn" onclick="submitForm()"
+          class="w-full bg-accent text-[#04141a] font-bold px-8 py-3.5 rounded-lg hover:bg-accent2 transition">
+          Enviar mensaje
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function submitForm(){
+    const nombre = document.getElementById('nombre');
+    const email = document.getElementById('email');
+    const mensaje = document.getElementById('mensaje');
+
+    if(!nombre.value.trim() || !email.value.trim() || !mensaje.value.trim()){
+      alert('Por favor completa los campos obligatorios: nombre, correo y mensaje.');
+      return;
+    }
+    if(!email.value.includes('@gmail.com')){
+      alert('Ingresa un correo electrónico válido.');
+      return;
+    }
+
+    document.getElementById('contact-form').classList.add('hidden');
+    document.getElementById('form-success').classList.remove('hidden');
+  }
+</script>
+
+<footer class="text-center py-8 px-5 text-muted text-sm border-t border-slate-700/20">
+  © 2026 NexaIoT · Soluciones de Internet de las Cosas. Todos los derechos reservados.
+  <br><span class="text-xs opacity-60">Fotos: Unsplash (uso libre)</span>
+</footer>
+
+</body>
+</html>
