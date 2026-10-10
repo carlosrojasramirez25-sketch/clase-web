@@ -40,7 +40,12 @@ a {
   text-decoration: none;
 }
 
-.hidden {
+ul,
+ol {
+  list-style: none;
+}
+
+[hidden] {
   display: none !important;
 }
 
@@ -201,6 +206,10 @@ a {
   color: var(--muted);
   text-align: center;
   margin-bottom: 2.5rem;
+}
+
+.section-title--wide {
+  margin-bottom: 2rem;
 }
 
 /* ---------- Cards grid ---------- */
